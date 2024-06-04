@@ -9,7 +9,7 @@ import tensorflow as tf
 from keras import layers
 from keras import losses
 
-url = "http://vision.stanford.edu/aditya86/ImageNetDogs/images.tar"
+url = "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz"
 dataset = tf.keras.utils.get_file("stack_overflow_16k", url,
                                     untar=True, cache_dir='.',
                                     cache_subdir='')
